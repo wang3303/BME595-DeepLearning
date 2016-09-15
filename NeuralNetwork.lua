@@ -31,12 +31,6 @@ function network.forward(input)
 	return res
 end
 
-function backward()
 
-end
-
-function updateParams()
-
-end
 return network
 
