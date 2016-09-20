@@ -11,4 +11,4 @@
 
 # API (img2num)
 * [nil] train()
-* [int] forward([28x28 ByteTensor] img)
+* ~~[int] forward([28x28 ByteTensor] img)~~
