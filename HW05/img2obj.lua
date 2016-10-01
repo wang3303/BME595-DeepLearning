@@ -31,11 +31,11 @@ net:add(nn.ReLU())
 net:add(nn.View(16*5*5))
 
 --Linear
-net:add(nn.Linear(16*5*5,200))
+net:add(nn.Linear(16*5*5,120))
 net:add(nn.ReLU())
-net:add(nn.Linear(200,100))
+net:add(nn.Linear(120,84))
 net:add(nn.ReLU())
-net:add(nn.Linear(100,100))
+net:add(nn.Linear(84,100))
 
 --cost function
 local loss = nn.MSECriterion()
