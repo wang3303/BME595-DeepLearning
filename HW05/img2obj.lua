@@ -51,7 +51,7 @@ local function oneHot(num)
 end
 
 function obj.train()
-	
+	--normalization
 	for i = 1, 3 do 
 		mean[i] = trainset.data[{{},{i},{},{}}]:mean()
 		trainset.data[{{},{i},{},{}}]:add(-mean[i])
